@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@egoist/prettier-config': ^0.1.0
-  '@hanxx/async-validator': ^3.6.2
+  '@hanxx/async-validator': ^3.6.4
   '@sucrase/jest-plugin': ^2.0.0
   '@types/jest': ^26.0.20
   jest: ^26.6.3
@@ -11,7 +11,7 @@ specifiers:
   typescript: ^4.2.3
 
 dependencies:
-  '@hanxx/async-validator': 3.6.2
+  '@hanxx/async-validator': 3.6.4
 
 devDependencies:
   '@egoist/prettier-config': 0.1.0
@@ -342,8 +342,8 @@ packages:
     resolution: {integrity: sha512-BYeixvJcTY/jOgawCgFOBxYBPP0e1WQPiyZw98BsUEjSI5SbdAguRKodqcyT50wie+HGk1EuhGUzC3lfrKL4Vg==}
     dev: true
 
-  /@hanxx/async-validator/3.6.2:
-    resolution: {integrity: sha512-XF8Ei6WINNzR4beZS3QzWYFc6YaNC2UEWG2Fl78OIYS47EZqPZ+S3eDW4ptGMbPA+/yenAqqV82uZMENui18GQ==}
+  /@hanxx/async-validator/3.6.4:
+    resolution: {integrity: sha512-bpDdIH+o2i+53g5xVo9Feq3yPsaVK9HDcpoUGQAQ32Is2tqdUNXuiOZDPvLkX5Zhd3LErspWgqIPt3w4obzktw==}
     dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:

@@ -5,4 +5,5 @@ module.exports = {
   },
   testPathIgnorePatterns: ['/node_modules/', '/dist/', '/types/'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  collectCoverage: true,
 }

@@ -25,6 +25,7 @@ class JavSchema<K extends AnyFields> extends Schema {
   validate(source: Values): Promise<K>
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   validate(source_: Values, o: any = {}, oc: any = () => {}): Promise<K> {
+    console.log(o);
     // eslint-disable-next-line promise/prefer-await-to-then
     return super.validate(source_, o, oc).then((valid) => valid as K)
   }
